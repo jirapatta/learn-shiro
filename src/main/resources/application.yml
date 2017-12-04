@@ -1,0 +1,11 @@
+server:
+  port: 18080
+
+logging:
+  level:
+    com.hd.learnshiro: DEBUG
+
+shiro:
+  loginUrl: /login.html
+  sessionManager:
+    sessionIdUrlRewritingEnabled: false
